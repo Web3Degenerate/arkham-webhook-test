@@ -1,0 +1,26 @@
+# Node modules directory
+node_modules/
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables file
+.env
+
+# OS-specific files
+.DS_Store
+
+# Vercel build output
+.vercel/
+
+# Coverage directory used by testing tools
+coverage/
+
+# Debugger configurations
+.vscode/
+
+# Temporary files
+tmp/
+temp/
