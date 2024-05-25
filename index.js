@@ -43,9 +43,11 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
-    const token = req.headers['arkham-webhook-token'];
+    // const token = req.headers['arkham-webhook-token'];
+    const token = req.headers['Arkham-Webhook-Token'];
 
-    if (token !== 'uLGQYDFFsnpUDl') {
+    // if (token !== 'uLGQYDFFsnpUDl') {
+    if (token !== 'VnGCovJ6L7n9PQ') {
         return res.status(401).send('Invalid token');
     }
 
